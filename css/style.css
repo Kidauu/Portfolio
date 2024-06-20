@@ -300,7 +300,7 @@ p {
 }
 
 .navStyle ul li:first-child {
-	/*margin:0px;*/;
+	/*margin:0px;*/
 }
 
 .navStyle ul li:last-child {
@@ -575,7 +575,7 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
+    /* display: */
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -879,7 +879,7 @@ background-position-y: 70px;
 	top: 6px;
 }
 
-.about-us-link a:first-child{
+.about-uz a:first-child{
 	margin-left: 0;
 }
 
@@ -990,7 +990,7 @@ margin-bottom: 5px;
 }
 
 .team_box ul li a.fa-twitter:hover {
-    color: #55acee;
+    color: #cb2026;
 }
 
 .team_box ul li a.fa-facebook:hover {
@@ -1390,6 +1390,15 @@ border: 1px solid #CE1139;
     text-align: center;
 }
 
+.section-resume {
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: -1px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
 .section-title span {
     display: block;
     color: #888888;
@@ -1590,7 +1599,94 @@ border: 1px solid #CE1139;
     transition-duration: 0s;
 }
 
+.button-link {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #CA8400;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.button-link:hover {
+    background-color: #CA8400;
+    transform: translateY(-3px);
+}
+
+.button-link:active {
+    transform: translateY(-1px);
+}
+
+/*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3b434a;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffb727;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #eef0f2;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #82909c;
+  }
+
+/* .container {
+    display: flex;
+    justify-content: center;
+} */
+  
 
 /* Portfolio Expander */	
 
@@ -1771,6 +1867,22 @@ border: 1px solid #CE1139;
     margin-top: -28px;
 }
 
+.resume-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.resume-link:hover {
+    background-color: #e67e22;
+}
+
+
 div.mc-image {
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -1938,7 +2050,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+ #clients {
 padding: 40px 0;
 }
 .client_logos ul li {
